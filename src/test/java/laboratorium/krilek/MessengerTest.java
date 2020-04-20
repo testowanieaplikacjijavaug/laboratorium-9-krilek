@@ -39,10 +39,12 @@ public class MessengerTest {
         ArgumentCaptor<String> emailArgument = ArgumentCaptor.forClass(String.class);
         ArgumentCaptor<String> contentArgument = ArgumentCaptor.forClass(String.class);
         String messageContent = "Content";
+        //Stub
         when(templateEngineMock.prepareMessage(any(Template.class), any(Client.class))).thenReturn(messageContent);
 
         this.sut.sendMessage(this.clientMock, this.templateMock);
 
+        //Spy
         verify(templateEngineMock).prepareMessage(any(Template.class), any(Client.class));
         verify(mailServerMock).send(emailArgument.capture(), contentArgument.capture());
         assertEquals(messageContent, contentArgument.getValue());
