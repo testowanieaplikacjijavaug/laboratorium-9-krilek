@@ -27,4 +27,6 @@ jobs:
       - name: Build with Jacoco Report
         run: gradle build jacocoTestReport
       - name: Codecov
-        uses: codecov/codecov-action@v1.0.6
+        run: |
+          export CODECOV_TOKEN="148f1b83-2709-47dd-b8fa-c834e8cd82b2"
+          bash <(curl -s https://codecov.io/bash)
