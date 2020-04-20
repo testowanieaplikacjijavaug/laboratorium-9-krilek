@@ -9,8 +9,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver:3.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jongo:jongo:1.4.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:28.1-jre" level="project" />
     <orderEntry type="library" name="Gradle: org.mockito:mockito-core:3.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-core:3.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:bson:3.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.10.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
+    <orderEntry type="library" name="Gradle: de.undercouch:bson4jackson:2.9.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />

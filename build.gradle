@@ -34,6 +34,11 @@ dependencies {
     testCompile group: 'org.easymock', name: 'easymock', version: '4.2'
         implementation 'org.mockito:mockito-core:3.3.3'
     testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.3.3'
+    // https://mvnrepository.com/artifact/org.mongodb/mongodb-driver
+    compile group: 'org.mongodb', name: 'mongodb-driver', version: '3.12.3'
+    // https://mvnrepository.com/artifact/org.jongo/jongo
+    compile group: 'org.jongo', name: 'jongo', version: '1.4.1'
+
 }
 
 test {
