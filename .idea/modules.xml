@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/laboratorium-9-krilek.iml" filepath="$PROJECT_DIR$/laboratorium-9-krilek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laboratorium-9-krilek.main.iml" filepath="$PROJECT_DIR$/.idea/modules/laboratorium-9-krilek.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/laboratorium-9-krilek.test.iml" filepath="$PROJECT_DIR$/.idea/modules/laboratorium-9-krilek.test.iml" />
+    </modules>
+  </component>
+</project>
